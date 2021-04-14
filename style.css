@@ -12,13 +12,16 @@ label{
 
 input{
 	display: block;
+	padding: 4px;
+	border-radius: 2px;
+	border: 1px solid #ccc;
 }
 
 .button-creator{
 	display: grid;
 	grid-gap: 30px;
 	padding: 30px;
-	grid-template-columns: 200px 1fr;
+	grid-template-columns: 214px 1fr;
 }
 #controles{
 	font-family: 'IBM Plex Mono', monospace;
@@ -38,4 +41,10 @@ input{
 .css span{
 	display: block;
 	margin-bottom: .5rem;
+}
+.resultado{
+	margin-top: 29px;
+}
+select{
+	padding: 6px;
 }
